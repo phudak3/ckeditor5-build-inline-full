@@ -1,5 +1,10 @@
 # CKEditor 5 Full Free Inline Build
 
+[![npm](https://img.shields.io/npm/v/@phudak/ckeditor5-build-inline-full)](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-full)
+[![npm](https://img.shields.io/npm/dw/@phudak/ckeditor5-build-inline-full)](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-full)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@phudak/ckeditor5-build-inline-full)](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-full)
+[![NPM](https://img.shields.io/npm/l/@phudak/ckeditor5-build-inline-full)](https://www.npmjs.com/package/@phudak/ckeditor5-build-inline-full)
+
 Full free CKEditor5 inline build.
 
 ![Preview Image](sample/preview.png "Preview Image of Full Inline Editor")
