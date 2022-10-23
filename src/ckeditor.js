@@ -53,16 +53,10 @@ import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline';
 import AutoImage from '@ckeditor/ckeditor5-image/src/autoimage';
-
-import Emoji from '@phudak/ckeditor5-emoji/src/emoji';
-import EmojiPeople from "@phudak/ckeditor5-emoji/src/emoji-people";
-import EmojiNature from "@phudak/ckeditor5-emoji/src/emoji-nature";
-import EmojiFood from "@phudak/ckeditor5-emoji/src/emoji-food";
-import EmojiActivity from "@phudak/ckeditor5-emoji/src/emoji-activity";
-import EmojiObjects from "@phudak/ckeditor5-emoji/src/emoji-objects";
-import EmojiPlaces from "@phudak/ckeditor5-emoji/src/emoji-places";
-import EmojiSymbols from "@phudak/ckeditor5-emoji/src/emoji-symbols";
-import EmojiFlags from "@phudak/ckeditor5-emoji/src/emoji-flags";
+import {
+	Emoji, EmojiActivity, EmojiFlags, EmojiFood, EmojiNature, EmojiObjects, EmojiPeople,
+	EmojiPlaces, EmojiSymbols
+} from '@phudak/ckeditor5-emoji/src';
 
 import DOMPurify from 'dompurify';
 
@@ -213,7 +207,7 @@ FullInlineEditor.defaultConfig = {
 			'tableColumn',
 			'tableRow',
 			'mergeTableCells',
-			'tableProperties', 
+			'tableProperties',
 			'tableCellProperties',
 		],
 		tableProperties: {
